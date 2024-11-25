@@ -141,6 +141,8 @@ idna==3.10
     # via httpx
     # via jsonschema
     # via requests
+imbalanced-learn==0.12.4
+    # via mads-hackathon
 importlib-metadata==8.5.0
     # via keyring
     # via mlflow-skinny
@@ -177,6 +179,7 @@ jinja2==3.1.4
     # via nbconvert
     # via torch
 joblib==1.4.2
+    # via imbalanced-learn
     # via scikit-learn
 json5==0.9.28
     # via jupyterlab-server
@@ -297,6 +300,7 @@ numpy==2.1.3
     # via configspace
     # via contourpy
     # via hyperopt
+    # via imbalanced-learn
     # via mads-datasets
     # via matplotlib
     # via mlflow
@@ -442,10 +446,12 @@ rsa==4.9
     # via google-auth
 ruff==0.8.0
 scikit-learn==1.5.2
+    # via imbalanced-learn
     # via mlflow
 scipy==1.14.1
     # via configspace
     # via hyperopt
+    # via imbalanced-learn
     # via mlflow
     # via scikit-learn
 seaborn==0.13.2
@@ -487,6 +493,7 @@ terminado==0.18.1
     # via jupyter-server
     # via jupyter-server-terminals
 threadpoolctl==3.5.0
+    # via imbalanced-learn
     # via scikit-learn
 tinycss2==1.4.0
     # via nbconvert
